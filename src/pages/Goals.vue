@@ -1,6 +1,8 @@
 <template>
   <Page pageName="goals">
-    <span>Test 3</span>
+    <template #fade>
+      <span>Test 3</span>
+    </template>
   </Page>
 </template>
 

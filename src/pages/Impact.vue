@@ -1,6 +1,8 @@
 <template>
   <Page pageName="impact">
-    <span>Test 4</span>
+    <template #fade>
+      <span>Test 4</span>
+    </template>
   </Page>
 </template>
 

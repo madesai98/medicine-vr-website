@@ -1,6 +1,8 @@
 <template>
   <Page pageName="trends">
-    <span>Test 2</span>
+    <template #slideRight>
+      <span>Test 2</span>
+    </template>
   </Page>
 </template>
 

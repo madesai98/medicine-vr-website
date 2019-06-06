@@ -1,6 +1,8 @@
 <template>
   <Page pageName="home">
-    <span>Test</span>
+    <template #fade>
+      <span>Test</span>
+    </template>
   </Page>
 </template>
 

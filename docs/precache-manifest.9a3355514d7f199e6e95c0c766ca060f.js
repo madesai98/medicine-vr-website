@@ -4,20 +4,20 @@ self.__precacheManifest = [
     "url": "/robots.txt"
   },
   {
-    "revision": "54fdffe75eb771e5d6ec",
-    "url": "/js/chunk-vendors.053b5d67.js"
+    "revision": "d702e7b6a5c192ed9ae6",
+    "url": "/js/chunk-vendors.35e5ee2e.js"
   },
   {
-    "revision": "88198ad8e1b3043fff00",
-    "url": "/js/app.07404b4b.js"
+    "revision": "8af85990717fe3b4ba6f",
+    "url": "/js/app.3422fb06.js"
   },
   {
-    "revision": "bab1ce45f42e917a92e984c1862a2dcc",
+    "revision": "8f14f73b5c08a954fd2ca4498500e0d1",
     "url": "/index.html"
   },
   {
-    "revision": "88198ad8e1b3043fff00",
-    "url": "/css/app.b674fb0e.css"
+    "revision": "8af85990717fe3b4ba6f",
+    "url": "/css/app.849d82a5.css"
   },
   {
     "revision": "003446c5208b23224d726167bf63bd0a",
