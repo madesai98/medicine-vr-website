@@ -68,8 +68,7 @@ export default {
         ch => ch.id === path
       );
 
-      if (this.pageIndex < 0)
-        document.location.href = "/";
+      if (this.pageIndex < 0) document.location.href = "/";
 
       this.$eventHub.$emit(
         "active-page",
@@ -143,5 +142,4 @@ html, body
   position: relative
   transition: 0.5s top ease-in
   width: 100vw
-
 </style>

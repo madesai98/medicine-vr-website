@@ -1,13 +1,13 @@
 <template>
   <div :id="pageName" class="page">
     <transition name="slide-left">
-        <slot v-if="active" name="slideLeft"></slot>
+      <slot v-if="active" name="slideLeft"></slot>
     </transition>
     <transition name="fade">
-        <slot v-if="active" name="fade"></slot>
+      <slot v-if="active" name="fade"></slot>
     </transition>
     <transition name="slide-right">
-        <slot v-if="active" name="slideRight"></slot>
+      <slot v-if="active" name="slideRight"></slot>
     </transition>
   </div>
 </template>
@@ -19,6 +19,10 @@ export default {
     pageName: {
       type: String,
       required: true
+    },
+    staggeredContent: {
+      type: Array,
+      default: () => []
     }
   },
   data() {
@@ -54,7 +58,7 @@ export default {
   opacity: 0
 .fade-enter-to, .fade-leave
   opacity: 1
-  
+
 .slide-left-enter, .slide-left-leave-to
   opacity: 0
   transform: translateX(100%)
@@ -62,7 +66,7 @@ export default {
 .slide-left-enter-to, .slide-left-leave
   opacity: 1
   transform: translateX(0)
-  
+
 .slide-right-enter, .slide-right-leave-to
   opacity: 0
   transform: translateX(-100%)
@@ -70,5 +74,4 @@ export default {
 .slide-right-enter-to, .slide-right-leave
   opacity: 1
   transform: translateX(0)
-
 </style>

@@ -1,7 +1,12 @@
 <template>
   <Page pageName="contact">
-    <template #fade>
-      <span>Test 5</span>
+    <template #slideRight>
+      <div class="contact-container">
+        <h2 class="contact-header">Partner with MedicineVR</h2>
+        <div class="contact-content">
+          
+        </div>
+      </div>
     </template>
   </Page>
 </template>

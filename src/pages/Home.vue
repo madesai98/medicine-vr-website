@@ -1,7 +1,9 @@
 <template>
   <Page pageName="home">
     <template #fade>
-      <span>Test</span>
+      <div class="logo-container">
+        <h1>Test</h1>
+      </div>
     </template>
   </Page>
 </template>
@@ -15,4 +17,9 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+#home
+  display: flex
+  align-items: center
+  justify-content: center
+</style>
