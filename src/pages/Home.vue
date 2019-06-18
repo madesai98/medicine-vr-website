@@ -6,7 +6,7 @@
           <img src="../assets/logo.png" alt="logo-icon" class="logo-icon" />
           <img src="../assets/logo-text.png" alt="" class="logo-text" />
         </div>
-        <a href="#trends" class="learn-more">Learn More</a>
+        <a class="learn-more" v-on:click="$emit('page-down')">Learn More</a>
       </div>
     </template>
   </Page>
@@ -39,6 +39,7 @@ export default {
   animation: logo-fade 0.5s ease-in-out 2.1s forwards
   transform: translateX(-50%)
   left: 50%
+  cursor: pointer
 
   &:after
     content: ''

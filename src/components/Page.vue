@@ -45,6 +45,7 @@ export default {
 .page
   width: 100vw
   height: 100vh
+  display: flex
 
 .fade-leave-active, .slide-left-leave-active, .slide-right-leave-active
   transition: opacity 0.5s ease-out, transform 0.5s ease-out

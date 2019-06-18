@@ -7,7 +7,7 @@
     }"
     ref="app"
   >
-    <Home />
+    <Home v-on:page-down="pageDown()"/>
     <Trends />
     <Goals />
     <Impact />
@@ -122,11 +122,13 @@ export default {
 </script>
 
 <style lang="sass">
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap')
+
 $color_background: #000
 $color_text_main: #fff
-$color_accent_blue: blue
-$color_accent_purple: purple
-$color_accent_pink: pink
+$color_accent_blue: #598df4
+$color_accent_purple: #a775de
+$color_accent_pink: #e552d6
 
 html, body
   width: 100vw
@@ -137,9 +139,19 @@ html, body
   overflow: hidden
   background: $color_background
   color: $color_text_main
+  font-family: 'Exo 2', sans-serif
 
 #app
   position: relative
   transition: 0.5s top ease-in
   width: 100vw
+
+.blue
+  color: $color_accent_blue
+
+.purple
+  color: $color_accent_purple
+
+.pink
+  color: $color_accent_pink
 </style>
