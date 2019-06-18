@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
 @keyframes stagger
     from
         opacity: 0
@@ -67,6 +66,7 @@ export default {
   padding: 30px
   display: flex
   align-items: center
+  width: 100%
 
 .trends-left
   margin-right: 90px

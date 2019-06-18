@@ -31,6 +31,7 @@ export default {
   padding: 30px
   display: flex
   align-items: center
+  width: 100%
 
 .goals-left
   flex: 1
