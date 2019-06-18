@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.33779aea37c672a0e32136e5e26a7fe5.js"
+  "/precache-manifest.2ab3e726411390127ac05539487821ce.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "medicine-vr"});
