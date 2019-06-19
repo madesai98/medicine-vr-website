@@ -5,7 +5,9 @@
         <div class="logo">
           <img src="../assets/logo.png" alt="logo-icon" class="logo-icon" />
           <img src="../assets/logo-text.png" alt="" class="logo-text" />
-          <span class="sub-header">PUBLIC HEALTH MEETS INTERACTIVE MEDICINE</span>
+          <span class="sub-header"
+            >PUBLIC HEALTH MEETS INTERACTIVE MEDICINE</span
+          >
         </div>
         <a class="learn-more" v-on:click="$emit('page-down')">Learn More</a>
       </div>
@@ -33,7 +35,9 @@ export default {
   position: absolute
   bottom: 45px
   display: block
-  color: #fff
+  color: #fff !important
+  font-family: 'Exo 2', sans-serif
+  text-decoration: none !important
   font-size: 1.5rem
   text-decoration: none
   opacity: 0

@@ -7,7 +7,7 @@
     }"
     ref="app"
   >
-    <Home v-on:page-down="pageDown()"/>
+    <Home v-on:page-down="pageDown()" />
     <Trends />
     <Goals />
     <Impact />

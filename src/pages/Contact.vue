@@ -23,9 +23,7 @@
             </md-field>
           </div>
         </div>
-        <div class="contact-right">
-
-        </div>
+        <div class="contact-right"></div>
       </div>
     </template>
   </Page>
@@ -43,7 +41,7 @@ export default {
       email: "",
       company: "",
       idea: ""
-    }
+    };
   }
 };
 </script>

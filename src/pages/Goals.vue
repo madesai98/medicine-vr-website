@@ -2,14 +2,13 @@
   <Page pageName="goals">
     <template #slideLeft>
       <div class="goals-container">
-        <div class="goals-left">
-
-        </div>
+        <div class="goals-left"></div>
         <div class="goals-right">
           <p class="goal">
             Through our immersive medical education platform, we aim to empower
-            individuals to engage in treatment and prevention efforts, which will,
-            in turn, better health outcomes for their communities as a whole.
+            individuals to engage in treatment and prevention efforts, which
+            will, in turn, better health outcomes for their communities as a
+            whole.
           </p>
         </div>
       </div>
@@ -44,5 +43,4 @@ export default {
   text-align: center
   margin: 0 90px
   font-style: italic
-  
 </style>
