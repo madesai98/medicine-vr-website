@@ -61,9 +61,11 @@ export default {
   opacity: 0
   position: absolute
   bottom: -25px
-  font-size: 2.334em
-  left: 0
-  color: #6d737b
+  font-size: 2em
+  left: 50%
+  transform: translateX(-50%)
+  white-space: nowrap
+  color: #5d5d5d
   font-style: italic
   animation: logo-fade 1s cubic-bezier(0.4,-0.2, 0.4, 1.2) 2.5s forwards
 
