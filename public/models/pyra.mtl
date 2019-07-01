@@ -1,0 +1,12 @@
+# Blender MTL File: 'Blood vessel_3 .blend'
+# Material Count: 1
+
+newmtl Pyramidal_cell_neuron
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.391237 0.395417 0.527719
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2
